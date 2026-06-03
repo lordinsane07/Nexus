@@ -117,8 +117,8 @@ Calculations are centralized in `src/shared/` and shared between the client and 
 
 ### 4.4 Order Processing (Admin)
 * **US-09:** View order queues. Admin expands orders to verify:
-  $$\text{quantity\_in\_base} = \text{ordered\_quantity} \times \text{conversion\_factor}$$
-  $$\text{line\_total} = \text{quantity\_in\_base} \times \text{base\_price\_per\_unit}$$
+  $$\text{Quantity in Base} = \text{Ordered Quantity} \times \text{Conversion Factor}$$
+  $$\text{Line Total} = \text{Quantity in Base} \times \text{Base Price per Unit}$$
 * **US-10:** Order state flow. Admin steps orders through: `quotation` $\to$ `confirmed` $\to$ `processing` $\to$ `dispatched` $\to$ `delivered`. Cancelation is blocked after delivery.
 
 ---
